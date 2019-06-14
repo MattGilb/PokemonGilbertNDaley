@@ -57,7 +57,7 @@ public class Trainer {
                 e.printStackTrace();
             }
             g2.drawImage(Brock,x,y,null);
-            g2.draw(getBounds());
+           // g2.draw(getBounds());
         }
     }
     public static int clamp(int var, int min, int max){
